@@ -19,7 +19,9 @@ class add
 };
 int main()
 {
-    add a(5 , 5) ;
+    int x,y;
+    cin>>x>>y;
+    add a( x , y) ;
     cout<<a.sum();
 
 }
