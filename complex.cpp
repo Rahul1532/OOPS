@@ -17,7 +17,6 @@ class complex
         temp.real= real+s.real;
         temp.img = img+s.img;
         return temp;
-
     }
 };
 int main()
